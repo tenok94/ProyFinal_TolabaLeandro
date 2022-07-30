@@ -1,0 +1,46 @@
+.row{
+    padding: 20px;
+}
+
+/*color de fondo*/
+div{
+    background-color: #bb86fc;
+}
+
+/*estilo para la foto*/
+@media(min-width: 600px){
+    #imagenPerfil{
+        position: absolute;
+        width: 16%;
+        box-shadow: 3px 3px 3px 3px #757575;
+        left: 2%;
+        top: 611px;
+        border-radius: 100%;
+
+    }
+}
+
+@media(max-width: 599px){
+    #imagenPerfil{
+        position: absolute;
+        width: 16%;
+        box-shadow: 3px 3px 3px 3px #757575;
+        left: 16%;
+        top: 607px;
+        border-radius: 100%;
+
+    }
+}
+
+/*etiqueta nombre y soy*/
+/* bold para poner letra en negro*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#soy{
+    font-weight: 649;
+    margin-left: 10px;
+}
