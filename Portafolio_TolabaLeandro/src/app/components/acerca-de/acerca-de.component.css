@@ -11,7 +11,7 @@ div{
 @media(min-width: 597px){
     #imagenPerfil{
         position: absolute;
-        width: 16%;
+        width: 10%;
         box-shadow: 3px 3px 3px 3px #757575;
         left: 2%;
         top: 611px;
