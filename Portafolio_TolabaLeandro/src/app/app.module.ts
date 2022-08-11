@@ -13,6 +13,8 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HardSofSkillsComponent } from './components/hard-sof-skills/hard-sof-skills.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CopyrightComponent } from './components/copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ProyectoComponent } from './components/proyecto/proyecto.component';
     ExperienciaComponent,
     EducacionComponent,
     HardSofSkillsComponent,
-    ProyectoComponent
+    ProyectoComponent,
+    FooterComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,

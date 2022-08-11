@@ -1,0 +1,14 @@
+.row{
+    background-color: #018786;
+}
+img{
+    width: 50px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.RD{
+    display: flex;
+    justify-content: center;
+}
