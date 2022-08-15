@@ -6,9 +6,21 @@ img{
 }
 .redes{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+.redes img{
+    margin: 0.5em;
 }
 .RD{
     display: flex;
     justify-content: center;
+}
+
+@media (min-width: 768px){
+    .col-lg-4 {
+    flex: 1 0 auto;
+    width: 33.33333333%;
+    display: flex;
+    justify-content: center;
+    }
 }
